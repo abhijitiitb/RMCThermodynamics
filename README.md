@@ -8,26 +8,37 @@ Suhail Haque, Abhijit Chatterjee
 Files contained in this folder
 ------------------------------
 Lattice_Flux.f90 -- Source file
+
 Lattice_Flux_average.f90 -- Source file
+
 newton_v3.f90 -- Source file
+
 Int_file_Cl_PCR.txt -- Input file
+
 lattice_flux_input.txt -- Input file
+
 newton_input.txt -- Input file
+
 README.txt -- This file
 
 Compilation
 -----------
 To compile the code:
+
 gfortran -o newt_v3.x newton_v3.f90 -llapack
+
 gfortran -o LF Lattice_Flux.f90
+
 gfortran -o LF_avg Lattice_Flux_average.f90
 
 Purpose
 -------
 newt_v3.x -- This is the main executable. This must be called to begin the thermodynamic calculations using RMC.
 Example: ./newt_v3.x 4 newton_input.txt > output_file.txt
+
 LF -- This executable calculates the growth rate of each cluster from the occupation.xyz file created after RMC, after each newton iteration.
       Does not need to be directly called by the user. 
+
 LF_avg -- Multiple RMC calculations with different seeds are run. Each time RMC generates a new configuration, and the growth rates are calculated.This executable                  calculates the average growth rate of the each cluster over all the seeds.
          Does not need to be directly called by the user.
 
