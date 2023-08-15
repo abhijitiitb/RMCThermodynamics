@@ -1,0 +1,3 @@
+../Int_file_Cl_PCR.txt #provide the full path to the interaction file
+325 # For square lattice, the number of rows and columns need to be specified.
+325 # Here, we are using a 325x325 square lattice

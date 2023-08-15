@@ -1,0 +1,14 @@
+Interaction file containing beta_w values (see Table 2 of https://arxiv.org/abs/2307.11703)
+0.006 # bias
+-2.4579 # adsorption energy at infinite dilution
+100 # 1NN interaction
+0.0167 # 2NN interaction
+0.0018 # 3NN interaction
+0.0002 # 4NN interaction
+0.0107 # L1 interaction
+0.0163 # I interaction
+0.0091 # L2 interaction
+-0.0042 # L3 interaction
+0.0014 # Q1 interaction
+0.0004 # Q2 interaction
+-0.0039 # Q3 interaction

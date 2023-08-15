@@ -1,0 +1,13 @@
+3 #Number of tunable SRO parameters
+0.3 #Coverage (x)
+0.3 0.09 0.027 #Initial guess for tuned SRO parameters
+500 #Absolute tolerance for convergence of growth rate
+15  #Maximum iterations for Newton-Raphson
+1 #Output flag (user should not change)
+1 0 0 0 0 0 0 1 1 0 0 #Array where 1 indicates SRO parameter to be tuned and 0 the opposite.
+[The clusters are in order 1NN 2NN 3NN 4NN L1 I L2 L3 Q1 Q2 Q3]
+
+
+
+
+
